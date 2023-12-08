@@ -6,11 +6,17 @@ real-time leak detection.
 ## Dependencies
 
 Python v3.8.11
+
 Pytorch v1.8.0 cuda11.1
+
 numpy v1.24.3
+
 pandas v1.5.3
+
 matplotlib v3.2.2
+
 sklearn v1.2.2
+
 rtchange
 
 ## Dataset
