@@ -1,8 +1,32 @@
 # Leak Detection and Localization Project
 
+This repository includes our fully data-driven unsupervised leak detection and localization framework in water distribution networks, employing 1D-CAE and SDNML change-point detector to realize
+real-time leak detection.
+
+## Dependencies
+
+Python v3.8.11
+Pytorch v1.8.0 cuda11.1
+numpy v1.24.3
+pandas v1.5.3
+matplotlib v3.2.2
+sklearn v1.2.2
+rtchange
+
 ## Dataset
 
-The implementation of the project utilizes the 2019 SCADA data from the L-Town Dataset.
+Our work is validated on the L-Town dataset, provided by the Battle of the Leakage Detection and Isolation Methods (BattLeDIM) challenge, to conduct our experiments.
 Dataset source: https://github.com/KIOS-Research/BattLeDIM
 
-S. G. Vrachimis, D. G. Eliades, R. Taormina, Z. Kapelan, A. Ostfeld, S. Liu, M. Kyriakou, P. Pavlou, M. Qiu, and M. M. Polycarpou. Forthcoming. “Battle of the Leakage Detection and Isolation Methods,” Journal of Water Resources Planning and Management, 10.1061/(ASCE)WR.1943-5452.0001601
+## Get Started
+
+1. ```
+   $ git clone https://github.com/Jolyne-lhy/WaterLeakDetection.git
+   $ cd WaterLeakDetection
+   ```
+
+2. Install dependencies.
+
+3. Download dataset.
+
+4. Train and test the 1D-CAE model with `1D-CAE Trainer.ipynb` and `1D-CAE Tester.ipynb`, run `Change Point Detection.ipynb`  to do change point detection.
