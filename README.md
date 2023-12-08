@@ -21,7 +21,7 @@ rtchange
 
 ## Dataset
 
-Our work is validated on the L-Town dataset. Dataset ource: https://github.com/KIOS-Research/BattLeDIM
+Our work is validated on the L-Town dataset. Dataset source: https://github.com/KIOS-Research/BattLeDIM
 
 ## Get Started
 
