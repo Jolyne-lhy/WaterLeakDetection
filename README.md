@@ -21,8 +21,7 @@ rtchange
 
 ## Dataset
 
-Our work is validated on the L-Town dataset, provided by the Battle of the Leakage Detection and Isolation Methods (BattLeDIM) challenge, to conduct our experiments.
-Dataset source: https://github.com/KIOS-Research/BattLeDIM
+Our work is validated on the L-Town dataset. Dataset ource: https://github.com/KIOS-Research/BattLeDIM
 
 ## Get Started
 
